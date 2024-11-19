@@ -32,28 +32,28 @@ data_unhealthy_val = []
 data_unhealthy_test = []
 
 # Read and parse healthy train, val, test data
-with open("healthy_labelled_new_train_single_10W_5hours_restored.txt", 'r') as txt_file:
+with open("healthy_labelled_new_train_single_10W_500_restored.txt", 'r') as txt_file:
     for line in txt_file:
         data_healthy_train.append(ast.literal_eval(line))
 
-with open("healthy_labelled_new_val_single_10W_5hours_restored.txt", 'r') as txt_file:
+with open("healthy_labelled_new_val_single_10W_500_restored.txt", 'r') as txt_file:
     for line in txt_file:
         data_healthy_val.append(ast.literal_eval(line))
 
-with open("healthy_labelled_new_test_single_10W_5hours_restored.txt", 'r') as txt_file:
+with open("healthy_labelled_new_test_single_10W_500_restored.txt", 'r') as txt_file:
     for line in txt_file:
         data_healthy_test.append(ast.literal_eval(line))
 
 # Read and parse unhealthy train, val, test data
-with open("unhealthy_labelled_new_train_single_10W_5hours_restored.txt", 'r') as txt_file:
+with open("unhealthy_labelled_new_train_single_10W_500_restored.txt", 'r') as txt_file:
     for line in txt_file:
         data_unhealthy_train.append(ast.literal_eval(line))
 
-with open("unhealthy_labelled_new_val_single_10W_5hours_restored.txt", 'r') as txt_file:
+with open("unhealthy_labelled_new_val_single_10W_500_restored.txt", 'r') as txt_file:
     for line in txt_file:
         data_unhealthy_val.append(ast.literal_eval(line))
 
-with open("unhealthy_labelled_new_test_single_10W_5hours_restored.txt", 'r') as txt_file:
+with open("unhealthy_labelled_new_test_single_10W_500_restored.txt", 'r') as txt_file:
     for line in txt_file:
         data_unhealthy_test.append(ast.literal_eval(line))
 
